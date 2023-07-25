@@ -1,5 +1,5 @@
 import useState from "react";
-import "./Home.css";
+
 const Home = () => {
   const [steamID, setSteamID] = useState("");
   const handleChange = (e) => {
